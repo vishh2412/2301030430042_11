@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+        body {
+            background-color: #6abadeba;
+            font-family: 'Arial';
+            margin: 0;
+            padding: 0;
+        }
+        .login {
+            padding: 80px;
+            margin: 20px 0 0 450px;
+            width: 382px;
+            overflow: hidden;
+            background: #23463f;
+            border-radius: 15px;
+        }
+        h2 {
+            text-align: center;
+            color: #277582;
+            padding: 20px;
+        }
+        label {
+            color: #08ffd1;
+            font-size: 17px;
+        }
+        input[type=text], input[type=password] {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 3px;
+            padding-left: 8px;
+        }
+        input[type=button] {
+            width: 300px;
+            height: 30px;
+            border: none;
+            border-radius: 17px;
+            padding-left: 7px;
+            color: blue;
+        }
+        span {
+            color: white;
+            font-size: 17px;
+        }
+        a {
+            float: right;
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <form id="login" method="get" action="login.php">
+            <h2>Login Page</h2>
+            <label><b>User Name</b></label>
+            <input type="text" name="Uname" id="Uname" placeholder="Username" required>
+            <br><br>
+            <label><b>Password</b
+<div class="create-account-form">
+    <h1>Create account</h1>
+    <p>Create an account and enjoy a world of learning and connections.</p>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <br>
+        <input type="submit" value="Create Account">
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </form>
+</div>
+.create-account-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.create-account-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-account-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.create-account-form input[type="text"],
+.create-account-form input[type="tel"],
+.create-account-form input[type="email"],
+.create-account-form input[type="password"]
+
+
+
+
+ <div class="welcome-back">
+    <h1>Hi, Welcome Back!</h1>
+    <p>Hello again, You have been missed!</p>
+    <form>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <p id="email-note">Email, phone & username</p>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd" required><br>
+        <label for="remember">
+            <input type="checkbox" id="remember" name="remember" value="remember">
+            Remember Password
+        </label><br>
+        <a href="#">Forgot Password?</a><br>
+        <input type="submit" value="LOGIN">
+        <p>or</p>
+        <button class="google-btn">
+            <span class="g-icon"></span>
+            <span>G f</span>
+        </button>
+    </form>
+    <p class="dell-note">(DELL)</p>
+</div>
+
+.welcome-back {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.welcome-back h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.welcome-back p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome-back label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.welcome-back input[type="email"],
+.welcome-
+
+
+
+<div class="personal-details">
+    <h1>Personal Details</h1>
+    <p>Provide your personal details to enhance your Skill Swap experience and connect with like-minded individuals.</p>
+    <form>
+        <label for="occupation">Occupation*:</label><br>
+        <select id="occupation" name="occupation" required>
+            <option value="">Select</option>
+            <option value="web-developer">Web developer</option>
+            <option value="fitness-coach">Fitness Coach</option>
+            <option value="other">Other</option>
+        </select><br>
+        <label for="skill-owned">Skill Owned*:</label><br>
+        <input type="text" id="skill-owned" name="skill-owned" required><br>
+        <label for="experience">Experience*:</label><br>
+        <select id="experience" name="experience" required>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10+</option>
+        </select><br>
+        <label for="location">Location *:</label><br>
+        <input type="text" id="location" name="location" required><br>
+        <input type="submit" value="Next">
+    </form>
+</div>
+.personal-details {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border
+
+
+
+<div class="swap-learn-grow-container">
+    <div class="swap-learn-grow">
+        <h1>Swap, learn, grow</h1>
+        <p>Most Collaborated<br>Discover the most accomplished and influential professionals<br>
+        20k+ 500+ 1k+ 100+<br>See more</p>
+    </div>
+    <div class="free-learning-ux-design">
+        <h2>Free Learning</h2>
+        <ul class="free-learning">
+            <li>
+                <p>UX DESIGNER <br> IN 3 MONTHS</p>
+                <p>21,390 students <br> 10 h 26m</p>
+            </li>
+            <li>
+                <p>Learn UI/UX Design, Figma and</p>
+                <p>Prototyping<br> Brad Frost</p>
+            </li>
+        </ul>
+    </div>
+</div>
+.swap-learn-grow-container {
+    display: flex;
+    justify-content: space-between;
+}
+.swap-learn-grow {
+    margin-right: 50px;
+}
+.swap-learn-grow h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.swap-learn-grow p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+.free-learning-ux-design {
+    margin-left: 50px;
+}
+.free-learning-ux-design h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.free-learning {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+.free-learning
+
+
+
+<div class="header">
+    <div class="header-left">
+        <img src="logo.png" alt="Logo">
+        <div class="nav-items">
+            <ul>
+                <li>←</li>
+                <li>×</li>
+                <li>Menu</li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-right">
+        <div class="profile-dropdown">
+            <button>Personal Details</button>
+            <div class="dropdown-content">
+                <a href="#">Community</a>
+                <a href="#">Premium</a>
+                <a href="#">V 190</a>
+                <a href="#">100+ hed</a>
+                <a href="#">See more</a>
+            </div>
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li>Time Table</li>
+                <li>•</li>
+                <li>History</li>
+                <li>Portfolio</li>
+                <li>See more</li>
+                <li>Personalise</li>
+                <li>Coaching</li>
+                <li>NER</li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>
+                    <a href="#">?</a>
+                </li>
+                <li>Help and feedback</li>
+                <li>
+                    <img src="g+.png" alt="G+">
+                </li>
+                <li>
+                    <a href="#">Log out</a>
+                </li>
+            </ul>
+        </div>
+        <div class="time">
+            <img src="clock.png" alt="Clock">
+            <p>10 h 26m</p>
+        </
+
+
+
+
+div class="card">
+  <div class="card-header">
+    <img src="musician.png" alt="Musician" class="profile-image">
+    <div class="card-info">
+      <p class="name">Musician</p>
+      <p class="username">James Smith</p>
+      <p class="stats">
+        <span class="followers">3K+</span>
+        <span class="following">60+</span>
+      </p>
+    </div>
+    <button class="swap-button">
+      <span class="swap">SWAP</span>
+      <span class="check-mark">&#10003;</span>
+    </button>
+    <button class="message-button">MESSAGE</button>
+  </div>
+  <div class="card-content">
+    <p class="about-title">About &rarr;</p>
+    <ul class="about-info">
+      <li><span>Phone:</span> 030-29843-74598</li>
+      <li><span>Email:</span> <a href="mailto:dubeylakshya00@gmail.com">dubeylakshya00@gmail.com</a></li>
+      <li><span>LinkedIn:</span> <a href="https://www.linkedin.com/feed/" target="_blank">View Profile</a></li>
+    </ul>
+    <div class="description">
+      <p>I am a highly skilled and passionate musician with over 8 years of experience in the music industry. With a strong background in composing and producing. I have successfully created captivating melodies and arrangements across various genres. My ability to connect with audiences through my music has earned me a solid reputation and a consistent 4/5 rating.</p>
+    </div>
+    <h3>Achievements</h3>
+    <ul class="achievements">
+      <li>Released two successful albums that garnered positive reviews and substantial airplay</li
+
+
+
+
+
+ <div id="context">
+  <div id="commands">
+    <span>←</span>
+    <span>SWAP</span>
+    <span>Q</span>
+    <span>SEND</span>
+    <span>RECEIVED</span>
+    <span>FILTER</span>
+    <span>Robbie Harriso</span>
+    <span>Seen</span>
+    <span>Musician</span>
+    <span>Accepted</span>
+    <span>Experience = 8year + 3K + 65+</span>
+    <span>Declined</span>
+    <span>UNSWAP</span>
+    <span>The Response of the person will be notified to you your provided gmail account for more information</span>
+    <span>Contact on Help and Support.</span>
+    <span>ос</span>
+    <span>↑↓</span>
+  </div>
+  <div id="details">
+    <span>Name:</span>
+    <span>Robbie Harriso</span>
+    <span>Occupation:</span>
+    <span>Musician</span>
+    <span>Experience:</span>
+    <span>8 years + 3K+ hours + 65+ performances</span>
+    <span>Status:</span>
+    <span>Accepted</span>
+  </div>
+</div>
+
+ #context {
+  font-family: Arial, sans-serif;
+}
+
+#commands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  font-size: 14px;
+  padding: 10px;
+  border
+
+
+
+<div id="context">
+  <div class="command-line">
+    <span class="arrow">&lt;</span>
+    <span class="command">SWAP</span>
+    <span class="os">ос</span>
+    <span class="arrow-down">&darr;</span>
+  </div>
+  <div class="command-line">
+    <span class="command">SEND</span>
+    <span class="command">RECEIVED</span>
+    <span class="command">FILTER</span>
+  </div>
+  <div class="profile-container">
+    <div class="profile">
+      <span class="name">Robbie Harrison</span>
+      <span class="occupation">Musician</span>
+      <span class="experience">
+        Experience = 8year
+        <span class="details">
+          <span class="sub-detail">3K+</span>
+          <span class="sub-detail">65+</span>
+          <span class="sub-detail">146</span>
+        </span>
+      </span>
+      <div class="buttons">
+        <span class="button accept">ACCEPT</span>
+        <span class="button delete">DELETE</span>
+        <span class="button r">R</span>
+      </div>
+    </div>
+    <div class="profile">
+      <span class="name">Jessamine Mumtaz</span>
+      <span class="occupation">Designer</span>
+      <span class="experience">
+        Experience = 4year
+        <span class="details">
+          <span class="sub-detail">258</span>
+          <span class="sub-detail">23</span>
+          <span class="sub-detail">19</span>
+        </span>
+      </span>
+      <div class="buttons">
+        <span class="button accept">ACCEPT</span>
+        <span class="button delete">DELETE</span>
+        <span class="button r">☐</span>
+      </div>
+
+
+
+
+<div id="context">
+  <div class="top-bar">
+    <div class="time-container">
+      <span class="time">9:57</span>
+    </div>
+    <div class="signal-strength-container">
+      <span class="signal-strength-text">4G 66</span>
+    </div>
+    <div class="app-name-container">
+      <span class="app-name">Skill Sharing_Swapping App</span>
+    </div>
+    <div class="status-container">
+      <span class="status-text">27 of 36</span>
+    </div>
+    <div class="menu-container">
+      <span class="menu-item">My Account</span>
+      <div class="menu-separator"></div>
+      <span class="menu-item">Swaps: 09</span>
+      <div class="menu-separator"></div>
+      <span class="menu-item">Likes: 15</span>
+      <div class="menu-separator"></div>
+      <span class="menu-item">Take Membership</span>
+      <div class="menu-separator"></div>
+      <span class="menu-item">Personal Details</span>
+      <div class="menu-separator"></div>
+      <span class="menu-item">Schedule Classes</span>
+      <div class="menu-separator"></div>
+      <span class="menu-item">Settings</span>
+      <div class="menu-separator"></div>
+      <span class="menu-item">文 Language</span>
+      <div class="menu-separator"></div>
+      <span class="menu-item">Reference</span>
+    </div>
+    <div class="arrow-container">
+      <span class="arrow-up">↑</span>
+      <span class="arrow-down">↓</span>
+    </div>
+    <div class="os-container">
+      <span class="os">ос</span>
+    </div
